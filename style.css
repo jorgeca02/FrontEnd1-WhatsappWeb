@@ -1,0 +1,102 @@
+html, body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+#chat{
+  height:100%;
+  width: 80%;
+  border: 1px solid black;
+  top:0px;
+  margin-left:20%;
+  margin-top:0px;
+  background-image: 
+  url('fondoChats.jpg');
+}
+
+.contactInfo{
+  text-align: center;
+  background-color: #292929;
+  color:white;
+  height:40px;
+  border: 1px solid #333333;
+  
+}
+#contactList{
+  float:left;
+/*   position: absolute; */
+  top:0px;
+  left:0px;
+  height:100%;
+  width:20%;
+  border: 2px solid black;
+  overflow: auto;
+}
+
+#escritura{
+position: absolute;
+width: 100%;
+
+bottom: 0px;
+
+  
+}
+
+#mensajeInput{
+  border: 1px solid black; 
+  
+  margin-bottom: 0%; 
+  width: 71%; 
+  height: 20px; 
+                     
+}
+#contactoActual{
+  background-color:#4d4d4d;
+}
+#añadir{
+  height:40px;
+  width:40px;
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+  border-radius: 20px;
+  font-size:30px;
+  background-color: #075e54;
+  color:white;
+}
+#enviar{
+
+}
+.messageSent{
+  display: flex;
+  align-items: center;
+  background-color: #aaa;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: fit-content;
+  height: 40px;
+  color: black;
+  
+}
+.messageReceived{
+  display: flex;
+
+  background-color: #aaa;
+  border-radius: 10px;
+  border: 1px solid black;
+  width: fit-content;
+  height: 40px;
+  color: black;
+/*   flex-direction: column; */
+  align-self: flex-start;
+  align-items: center;
+  
+}
+ #messageList{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 99%;
+  
+}

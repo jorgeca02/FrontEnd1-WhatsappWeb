@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>WhatsappFake</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="start()">
+  <script src="script.js"></script>
+  <div id="contactList"></div>
+  <div id="chat">
+    <div id="contactoActual" class="contactInfo">contacto</div>
+    <div id="messageList">
+      
+    </div>
+    <div id="escritura">
+      <input id="mensajeInput" type="text" autocomplete="off" onchange="count()">
+      <button id="enviar" onclick="addMessage();">enviar</button>
+    </div>
+
+  </div>
+  <button id="añadir" onclick="addContact()">+</button>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+  <div id=contactInfo>
+
+  </div>
+
+  
+</body>
+
+</html>
